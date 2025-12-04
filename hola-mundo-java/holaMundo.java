@@ -6,8 +6,11 @@
 
 public class HolaMundo {
 	public static void main(String[] args) {
-		System.out.print("¡Hola Mundo!");
-		System.out.print("¡Seguimos por aquí!, parece que no");
+		String naranja = "\033[33m";
+		String azul = "\033[34m";
+		System.out.print(naranja+"¡Hola Mundo!");
+		System.out.print(azul+ "saldkerlkbdlfigu");
+		
 	}
 }
 
